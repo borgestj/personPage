@@ -5,14 +5,17 @@ html,body {
 }
 
 body {
-    background-color: #3B252C;
+    background-color: #f4f3eb;
     font-family: 'Montserrat', sans-serif;
 }
 
 .navigation {
-    background-color: #3B252C;
-    color: white;
+    background-color: #fff;
+    color: #40435b;
     height: 50px;
+    -webkit-box-shadow: 0px 0px 15px 0px rgba(15,13,1,1);
+    -moz-box-shadow: 0px 0px 15px 0px rgba(15,13,1,1);
+    box-shadow: 0px 0px 15px 0px rgba(15,13,1,1);
 
     animation-name: navegacao;
     animation-duration: 4s;
@@ -36,12 +39,14 @@ body {
 }
 
 .navigation a {
-    color: white;
+    color: #000;
     text-decoration: none;
+    font-weight: 300;
 }
 
 .navigation a:hover {
-    color: #7FDEFF;
+    color: #40435b;
+    font-weight: 600;
 }
 
 .navigation li.threeline-icon {
@@ -54,11 +59,11 @@ body {
 }
 
 .capa {
-    color: white;
+    color: #40435b;
 }
 
 .capa span {
-    color: #7FDEFF;
+    color: #40435b;
     display: block;
 }
 
@@ -76,9 +81,12 @@ body {
 }
 
 .profile-pic img {
-    width: 350px;
-    border-radius: 350px;
-    margin-top: 100px
+    width: 200px;
+    border-radius: 20px;
+    margin-top: 100px;
+    -webkit-box-shadow: 0px 5px 55px 0px rgba(15,13,1,1);
+    -moz-box-shadow: 0px 5px 55px 0px rgba(15,13,1,1);
+    box-shadow: 0px 5px 55px 0px rgba(15,13,1,1);
 }
 
 .profile-title {
@@ -112,14 +120,14 @@ body {
 }
 
 .main h1 {
-    color: white;
+    color: #40435b;
     font-size: 20px;
     text-transform: uppercase;
     font-weight: normal;
 }
 
 .main h2 {
-    color: white;
+    color: #40435b;
     font-size: 16px;
     text-transform: uppercase;
     font-weight: normal;
@@ -127,16 +135,15 @@ body {
 }
 
 .main h3 {
-    color: #7FDEFF;
+    color: #022936;
     font-size: 12px;
     text-transform: uppercase;
 }
 
 .main p {
-    color: white;
-    font-size: 18px;
-    font-weight: 100;
-    line-height:px; 
+    color: #40435b;
+    font-size: 20px;
+    font-weight: 600; 
     text-align: justify;
     text-decoration: none;
 }
@@ -162,6 +169,7 @@ body {
     width: 200px;
     margin-right: 20px;
     margin-bottom: 20px;
+    border-radius: 20px;
 }
 
 .social-img {
@@ -226,6 +234,18 @@ body {
     margin-bottom: 10px;
     margin-top: 10px;
 
+}
+
+.projetos {
+    font-size: 18px;
+    font-weight: 300;
+    color: black;
+    text-decoration: none;
+}
+
+.projetos li a {
+    text-decoration: none;
+    color: black;
 }
 
 @keyframes profile-capa {
